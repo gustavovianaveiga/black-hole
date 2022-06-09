@@ -1,0 +1,10 @@
+.universe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://www.hdwallpapers.in/download/black_and_white_picture_of_stars_during_nighttime_4k_5k_hd_galaxy-HD.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}

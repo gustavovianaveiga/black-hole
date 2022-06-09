@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.planet {
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 200px;
+    transform-style: preserve-3d;
+    background-image: url('https://imagens.brasil.elpais.com/resizer/hYoHq8ncsBAJsJNSkIx-TDg5qfU=/1960x1470/filters:focal(392x280:402x290)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/3JHHGWRWPI7FUHIZDXMKFIGG5A.jpg');
+    background-repeat: repeat-x;
+    background-size: cover;
+    animation: planet 40s linear infinite;
+    box-shadow: 0px 0px 50px 6px #4c4b4b;
+    filter: invert(90%)
+}
+
+@keyframes planet {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -750px 0;
+    }
+}
